@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300&display=swap');
 body {
   display: flex;
   flex-direction: column;
@@ -8,38 +8,53 @@ body {
   width: 60%;
   margin: 0 auto;
 }
+
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-p{
-    width: 60%;
-    margin: 0;
-    text-align: center;
+p {
+  width: 60%;
+  margin: 0;
+  text-align: center;
 }
 img {
   width: 40%;
   height: 200px;
   margin: 20px 0;
 }
-.img{
+.img {
   width: 150px;
   height: 150px;
   margin: 0;
   border-radius: 100px;
 }
-button{
-    color: blue;
-    background: transparent;
-    border: none;
-    cursor: pointer;
+.image {
+  width: 400px;
+  height: 200px;
 }
-h5{
-    border: 1px solid red;
-    padding: 10px 15px;
-    color: #000;
-    font-size: 17px;
-    cursor: pointer;
+button {
+  color: blue;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+h5 {
+  border: 1px solid red;
+  padding: 10px 15px;
+  color: #000;
+  font-size: 17px;
+  cursor: pointer;
+  margin: 10px 15px;
+  
+}
+h5:hover{
+  background-color: aqua; 
+}
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

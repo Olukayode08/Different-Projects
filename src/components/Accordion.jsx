@@ -1,16 +1,18 @@
-import React from 'react'
-import questions from '../data/AccordionData'
+import React, { useState } from 'react'
+import data from '../data/AccordionData'
+import AccordionQuestion from './AccordionQuestion'
 const Accordion = () => {
+  const [questions] = useState(data)
+
   return (
     <>
       <main>
         <h1>Accordion Project</h1>
-        {questions.map((questions)=>{
-            return(
-                <div key={questions.id}>
+        {questions.map((question) => {
+          return (
+            <AccordionQuestion key={question.id} {...question}/>
 
-                </div>
-            )
+          )
         })}
       </main>
     </>
