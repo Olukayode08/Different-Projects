@@ -41,6 +41,9 @@ button {
   border: none;
   cursor: pointer;
 }
+h1{
+  text-align: center;
+}
 h5 {
   border: 1px solid red;
   padding: 10px 15px;
@@ -51,10 +54,14 @@ h5 {
   
 }
 h5:hover{
-  background-color: aqua; 
+  background-color: black;
+  color: red; 
 }
 section{
   display: flex;
-  align-items: center;
+  align-items: center; 
   justify-content: center;
+}
+.active{
+  color: green;
 }

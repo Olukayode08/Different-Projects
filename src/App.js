@@ -1,6 +1,7 @@
 import Accordion from './components/Accordion'
 import FilterMenu from './components/FilterMenu'
 import Reviews from './components/Reviews'
+import TabsProject from './components/TabsProject'
 import ToursProject from './components/ToursProject'
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
       {/* <ToursProject /> */}
       {/* <Reviews /> */}
       {/* <Accordion /> */}
-      <FilterMenu />
+      {/* <FilterMenu /> */}
+      <TabsProject />
       
     </>
   )
